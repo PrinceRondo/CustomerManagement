@@ -1,0 +1,296 @@
+﻿-----------------------------------------------------------------------------
+Date : 9/23/2021 11:57:23 PM
+
+MailKit.Net.Smtp.SmtpCommandException
+Message : 5.1.3 The recipient address <Olayemi> is not a valid RFC-5321 address. r25sm7175201wrc.26 - gsmtp
+StackTrace :    at MailKit.Net.Smtp.SmtpClient.OnRecipientNotAccepted(MimeMessage message, MailboxAddress mailbox, SmtpResponse response)
+   at MailKit.Net.Smtp.SmtpClient.ProcessRcptToResponse(MimeMessage message, MailboxAddress mailbox, SmtpResponse response)
+   at MailKit.Net.Smtp.SmtpClient.FlushCommandQueueAsync(MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at MailKit.Net.Smtp.SmtpClient.SendAsync(FormatOptions options, MimeMessage message, MailboxAddress sender, IList`1 recipients, Boolean doAsync, CancellationToken cancellationToken, ITransferProgress progress)
+   at MailKit.Net.Smtp.SmtpClient.Send(FormatOptions options, MimeMessage message, CancellationToken cancellationToken, ITransferProgress progress)
+   at MailKit.MailTransport.Send(MimeMessage message, CancellationToken cancellationToken, ITransferProgress progress)
+   at InYourFridge.Helper.Mail.Mailer.SendMail(String link, String mailTo, String subject, String name) in C:\Users\TELNET-SP\Desktop\Olayemi\My Projects\CustomerManagement\CustomerManagement\Helper\Mail\Mailer.cs:line 51
+-----------------------------------------------------------------------------
+Date : 9/25/2021 8:06:18 PM
+
+iTextSharp.text.DocumentException
+Message : No message found for 1.not.found.as.resource
+StackTrace :    at iTextSharp.text.FontFactoryImp.GetFont(String fontname, String encoding, Boolean embedded, Single size, Int32 style, BaseColor color, Boolean cached)
+   at iTextSharp.text.FontFactoryImp.GetFont(String fontname, String encoding, Boolean embedded, Single size, Int32 style, BaseColor color)
+   at iTextSharp.text.FontFactory.GetFont(String fontname, String encoding, Boolean embedded, Single size, Int32 style, BaseColor color)
+   at iTextSharp.text.FontFactory.GetFont(String fontname, Single size, BaseColor color)
+   at CustomerManagement.Helper.PdfDocument..ctor(AppDbContext dbContext, Mailer mailer, Utility utility) in C:\Users\TELNET-SP\Desktop\Olayemi\My Projects\CustomerManagement\CustomerManagement\Helper\PdfDocument.cs:line 19
+   at CustomerManagement.Repositories.CustomerRecordRepository.SendAllCustomerRecordAsync(Int32 customerProfileId) in C:\Users\TELNET-SP\Desktop\Olayemi\My Projects\CustomerManagement\CustomerManagement\Repositories\CustomerRecordRepository.cs:line 231
+-----------------------------------------------------------------------------
+Date : 9/25/2021 8:06:42 PM
+
+iTextSharp.text.DocumentException
+Message : No message found for 1.not.found.as.resource
+StackTrace :    at iTextSharp.text.FontFactoryImp.GetFont(String fontname, String encoding, Boolean embedded, Single size, Int32 style, BaseColor color, Boolean cached)
+   at iTextSharp.text.FontFactoryImp.GetFont(String fontname, String encoding, Boolean embedded, Single size, Int32 style, BaseColor color)
+   at iTextSharp.text.FontFactory.GetFont(String fontname, String encoding, Boolean embedded, Single size, Int32 style, BaseColor color)
+   at iTextSharp.text.FontFactory.GetFont(String fontname, Single size, BaseColor color)
+   at CustomerManagement.Helper.PdfDocument..ctor(AppDbContext dbContext, Mailer mailer, Utility utility) in C:\Users\TELNET-SP\Desktop\Olayemi\My Projects\CustomerManagement\CustomerManagement\Helper\PdfDocument.cs:line 19
+   at CustomerManagement.Repositories.CustomerRecordRepository.SendAllCustomerRecordAsync(Int32 customerProfileId) in C:\Users\TELNET-SP\Desktop\Olayemi\My Projects\CustomerManagement\CustomerManagement\Repositories\CustomerRecordRepository.cs:line 231
+-----------------------------------------------------------------------------
+Date : 9/25/2021 8:07:14 PM
+
+iTextSharp.text.DocumentException
+Message : No message found for 1.not.found.as.resource
+StackTrace :    at iTextSharp.text.FontFactoryImp.GetFont(String fontname, String encoding, Boolean embedded, Single size, Int32 style, BaseColor color, Boolean cached)
+   at iTextSharp.text.FontFactoryImp.GetFont(String fontname, String encoding, Boolean embedded, Single size, Int32 style, BaseColor color)
+   at iTextSharp.text.FontFactory.GetFont(String fontname, String encoding, Boolean embedded, Single size, Int32 style, BaseColor color)
+   at iTextSharp.text.FontFactory.GetFont(String fontname, Single size, BaseColor color)
+   at CustomerManagement.Helper.PdfDocument..ctor(AppDbContext dbContext, Mailer mailer, Utility utility) in C:\Users\TELNET-SP\Desktop\Olayemi\My Projects\CustomerManagement\CustomerManagement\Helper\PdfDocument.cs:line 19
+   at CustomerManagement.Repositories.CustomerRecordRepository.SendAllCustomerRecordAsync(Int32 customerProfileId) in C:\Users\TELNET-SP\Desktop\Olayemi\My Projects\CustomerManagement\CustomerManagement\Repositories\CustomerRecordRepository.cs:line 231
+-----------------------------------------------------------------------------
+Date : 9/26/2021 4:08:06 AM
+
+iTextSharp.text.DocumentException
+Message : No message found for 1.not.found.as.resource
+StackTrace :    at iTextSharp.text.FontFactoryImp.GetFont(String fontname, String encoding, Boolean embedded, Single size, Int32 style, BaseColor color, Boolean cached)
+   at iTextSharp.text.FontFactoryImp.GetFont(String fontname, String encoding, Boolean embedded, Single size, Int32 style, BaseColor color)
+   at iTextSharp.text.FontFactory.GetFont(String fontname, String encoding, Boolean embedded, Single size, Int32 style, BaseColor color)
+   at iTextSharp.text.FontFactory.GetFont(String fontname, Single size, BaseColor color)
+   at CustomerManagement.Helper.PdfDocument..ctor(AppDbContext dbContext, Mailer mailer, Utility utility) in C:\Users\TELNET-SP\Desktop\Olayemi\My Projects\CustomerManagement\CustomerManagement\Helper\PdfDocument.cs:line 19
+   at CustomerManagement.Repositories.CustomerRecordRepository.SendAllCustomerRecordAsync(Int32 customerProfileId) in C:\Users\TELNET-SP\Desktop\Olayemi\My Projects\CustomerManagement\CustomerManagement\Repositories\CustomerRecordRepository.cs:line 231
+-----------------------------------------------------------------------------
+Date : 9/26/2021 4:10:04 AM
+
+iTextSharp.text.DocumentException
+Message : No message found for 1.not.found.as.resource
+StackTrace :    at iTextSharp.text.FontFactoryImp.GetFont(String fontname, String encoding, Boolean embedded, Single size, Int32 style, BaseColor color, Boolean cached)
+   at iTextSharp.text.FontFactoryImp.GetFont(String fontname, String encoding, Boolean embedded, Single size, Int32 style, BaseColor color)
+   at iTextSharp.text.FontFactory.GetFont(String fontname, String encoding, Boolean embedded, Single size, Int32 style, BaseColor color)
+   at iTextSharp.text.FontFactory.GetFont(String fontname, Single size, BaseColor color)
+   at CustomerManagement.Helper.PdfDocument..ctor(AppDbContext dbContext, Mailer mailer, Utility utility) in C:\Users\TELNET-SP\Desktop\Olayemi\My Projects\CustomerManagement\CustomerManagement\Helper\PdfDocument.cs:line 19
+   at CustomerManagement.Repositories.CustomerRecordRepository.SendAllCustomerRecordAsync(Int32 customerProfileId) in C:\Users\TELNET-SP\Desktop\Olayemi\My Projects\CustomerManagement\CustomerManagement\Repositories\CustomerRecordRepository.cs:line 231
+-----------------------------------------------------------------------------
+Date : 9/26/2021 4:50:53 AM
+
+iTextSharp.text.DocumentException
+Message : No message found for 1.not.found.as.resource
+StackTrace :    at iTextSharp.text.pdf.PdfDocument.Add(IElement element)
+   at iTextSharp.text.Document.Add(IElement element)
+   at CustomerManagement.Helper.PdfDocument.GeneratePdfFile(CustomerProfile customerProfile, IList`1 customerRecord) in C:\Users\TELNET-SP\Desktop\Olayemi\My Projects\CustomerManagement\CustomerManagement\Helper\PdfDocument.cs:line 91
+-----------------------------------------------------------------------------
+Date : 9/26/2021 5:19:13 AM
+
+iTextSharp.text.DocumentException
+Message : No message found for 1.not.found.as.resource
+StackTrace :    at iTextSharp.text.pdf.PdfDocument.Add(IElement element)
+   at iTextSharp.text.Document.Add(IElement element)
+   at CustomerManagement.Helper.PdfDocument.GeneratePdfFile(CustomerProfile customerProfile, IList`1 customerRecord) in C:\Users\TELNET-SP\Desktop\Olayemi\My Projects\CustomerManagement\CustomerManagement\Helper\PdfDocument.cs:line 91
+-----------------------------------------------------------------------------
+Date : 9/26/2021 5:32:03 AM
+
+iTextSharp.text.DocumentException
+Message : No message found for 1.not.found.as.resource
+StackTrace :    at iTextSharp.text.pdf.PdfDocument.Add(IElement element)
+   at iTextSharp.text.Document.Add(IElement element)
+   at CustomerManagement.Helper.PdfDocument.GeneratePdfFile(CustomerProfile customerProfile, IList`1 customerRecord) in C:\Users\TELNET-SP\Desktop\Olayemi\My Projects\CustomerManagement\CustomerManagement\Helper\PdfDocument.cs:line 91
+-----------------------------------------------------------------------------
+Date : 9/26/2021 9:31:01 AM
+
+System.IO.IOException
+Message : No message found for the.document.has.no.pages
+StackTrace :    at iTextSharp.text.pdf.PdfPages.WritePageTree()
+   at iTextSharp.text.pdf.PdfWriter.Close()
+   at iTextSharp.text.pdf.PdfDocument.Close()
+   at iTextSharp.text.Document.Close()
+   at CustomerManagement.Helper.PdfDocument.GeneratePdfFile(CustomerProfile customerProfile, IList`1 customerRecord) in C:\Users\TELNET-SP\Desktop\Olayemi\My Projects\CustomerManagement\CustomerManagement\Helper\PdfDocument.cs:line 93
+-----------------------------------------------------------------------------
+Date : 9/26/2021 10:02:16 AM
+
+iTextSharp.text.DocumentException
+Message : No message found for 1.not.found.as.resource
+StackTrace :    at iTextSharp.text.pdf.PdfDocument.Add(IElement element)
+   at iTextSharp.text.Document.Add(IElement element)
+   at CustomerManagement.Helper.PdfDocument.GeneratePdfFile(CustomerProfile customerProfile, IList`1 customerRecord) in C:\Users\TELNET-SP\Desktop\Olayemi\My Projects\CustomerManagement\CustomerManagement\Helper\PdfDocument.cs:line 91
+-----------------------------------------------------------------------------
+Date : 9/26/2021 10:29:34 AM
+
+iTextSharp.text.DocumentException
+Message : No message found for 1.not.found.as.resource
+StackTrace :    at iTextSharp.text.pdf.PdfDocument.Add(IElement element)
+   at iTextSharp.text.Document.Add(IElement element)
+   at CustomerManagement.Helper.PdfDocument.GeneratePdfFile(CustomerProfile customerProfile, IList`1 customerRecord)
+-----------------------------------------------------------------------------
+Date : 9/26/2021 10:33:43 AM
+
+System.IO.IOException
+Message : No message found for the.document.has.no.pages
+StackTrace :    at iTextSharp.text.pdf.PdfPages.WritePageTree()
+   at iTextSharp.text.pdf.PdfWriter.Close()
+   at iTextSharp.text.pdf.PdfDocument.Close()
+   at iTextSharp.text.Document.Close()
+   at CustomerManagement.Helper.PdfDocument.GeneratePdfFile(CustomerProfile customerProfile, IList`1 customerRecord)
+-----------------------------------------------------------------------------
+Date : 9/26/2021 10:45:10 AM
+
+System.IO.IOException
+Message : The process cannot access the file 'C:\Users\TELNET-SP\Desktop\Olayemi\My Projects\CustomerManagement\CustomerManagement\wwwroot\Records\Olayemi.pdf' because it is being used by another process.
+StackTrace :    at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at System.IO.File.OpenRead(String path)
+   at MimeKit.AttachmentCollection.Add(String fileName)
+   at CustomerManagement.Helper.Mail.Mailer.SendInvoice(String name, String email, String body, String path) in C:\Users\TELNET-SP\Desktop\Olayemi\My Projects\CustomerManagement\CustomerManagement\Helper\Mail\Mailer.cs:line 92
+-----------------------------------------------------------------------------
+Date : 9/26/2021 10:55:48 AM
+
+System.IO.IOException
+Message : No message found for the.document.has.no.pages
+StackTrace :    at iTextSharp.text.pdf.PdfPages.WritePageTree()
+   at iTextSharp.text.pdf.PdfWriter.Close()
+   at iTextSharp.text.pdf.PdfDocument.Close()
+   at iTextSharp.text.Document.Close()
+   at CustomerManagement.Helper.PdfDocument.GeneratePdfFile(CustomerProfile customerProfile, IList`1 customerRecord) in C:\Users\TELNET-SP\Desktop\Olayemi\My Projects\CustomerManagement\CustomerManagement\Helper\PdfDocument.cs:line 93
+-----------------------------------------------------------------------------
+Date : 9/26/2021 11:18:43 AM
+
+iTextSharp.text.DocumentException
+Message : No message found for the.document.is.not.open.yet.you.can.only.add.meta.information
+StackTrace :    at iTextSharp.text.Document.Add(IElement element)
+   at CustomerManagement.Helper.PdfDocument.GeneratePdfFile(CustomerProfile customerProfile, IList`1 customerRecord) in C:\Users\TELNET-SP\Desktop\Olayemi\My Projects\CustomerManagement\CustomerManagement\Helper\PdfDocument.cs:line 53
+-----------------------------------------------------------------------------
+Date : 9/26/2021 11:19:10 AM
+
+iTextSharp.text.DocumentException
+Message : No message found for the.document.is.not.open.yet.you.can.only.add.meta.information
+StackTrace :    at iTextSharp.text.Document.Add(IElement element)
+   at CustomerManagement.Helper.PdfDocument.GeneratePdfFile(CustomerProfile customerProfile, IList`1 customerRecord) in C:\Users\TELNET-SP\Desktop\Olayemi\My Projects\CustomerManagement\CustomerManagement\Helper\PdfDocument.cs:line 53
+-----------------------------------------------------------------------------
+Date : 9/26/2021 11:19:47 AM
+
+iTextSharp.text.DocumentException
+Message : No message found for the.document.is.not.open.yet.you.can.only.add.meta.information
+StackTrace :    at iTextSharp.text.Document.Add(IElement element)
+   at CustomerManagement.Helper.PdfDocument.GeneratePdfFile(CustomerProfile customerProfile, IList`1 customerRecord) in C:\Users\TELNET-SP\Desktop\Olayemi\My Projects\CustomerManagement\CustomerManagement\Helper\PdfDocument.cs:line 53
+-----------------------------------------------------------------------------
+Date : 9/26/2021 11:20:38 AM
+
+iTextSharp.text.DocumentException
+Message : No message found for the.document.is.not.open.yet.you.can.only.add.meta.information
+StackTrace :    at iTextSharp.text.Document.Add(IElement element)
+   at CustomerManagement.Helper.PdfDocument.GeneratePdfFile(CustomerProfile customerProfile, IList`1 customerRecord) in C:\Users\TELNET-SP\Desktop\Olayemi\My Projects\CustomerManagement\CustomerManagement\Helper\PdfDocument.cs:line 53
+-----------------------------------------------------------------------------
+Date : 9/26/2021 11:28:25 AM
+
+System.IO.IOException
+Message : No message found for the.document.has.no.pages
+StackTrace :    at iTextSharp.text.pdf.PdfPages.WritePageTree()
+   at iTextSharp.text.pdf.PdfWriter.Close()
+   at iTextSharp.text.pdf.PdfDocument.Close()
+   at iTextSharp.text.Document.Close()
+   at CustomerManagement.Helper.PdfDocument.GeneratePdfFile(CustomerProfile customerProfile, IList`1 customerRecord) in C:\Users\TELNET-SP\Desktop\Olayemi\My Projects\CustomerManagement\CustomerManagement\Helper\PdfDocument.cs:line 50
+-----------------------------------------------------------------------------
+Date : 9/26/2021 12:25:39 PM
+
+System.IO.FileNotFoundException
+Message : Could not find file 'C:\Users\TELNET-SP\Desktop\Olayemi\My Projects\CustomerManagement\CustomerManagement\wwwroot\Records\b71b0563-eec4-4a51-b084-bbd8ba269af4.pdf'.
+StackTrace :    at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at CustomerManagement.Helper.PdfDocument.GeneratePdfFile(CustomerProfile customerProfile, IList`1 customerRecord) in C:\Users\TELNET-SP\Desktop\Olayemi\My Projects\CustomerManagement\CustomerManagement\Helper\PdfDocument.cs:line 39
+-----------------------------------------------------------------------------
+Date : 9/26/2021 12:33:59 PM
+
+System.IO.IOException
+Message : The process cannot access the file 'C:\Users\TELNET-SP\Desktop\Olayemi\My Projects\CustomerManagement\CustomerManagement\wwwroot\Records\2fa08e1a-70c1-42ad-a747-cc6e266a2237.pdf' because it is being used by another process.
+StackTrace :    at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at CustomerManagement.Helper.PdfDocument.GeneratePdfFile(CustomerProfile customerProfile, IList`1 customerRecord) in C:\Users\TELNET-SP\Desktop\Olayemi\My Projects\CustomerManagement\CustomerManagement\Helper\PdfDocument.cs:line 44
+-----------------------------------------------------------------------------
+Date : 9/26/2021 1:18:11 PM
+
+System.IO.IOException
+Message : No message found for the.document.has.no.pages
+StackTrace :    at iTextSharp.text.pdf.PdfPages.WritePageTree()
+   at iTextSharp.text.pdf.PdfWriter.Close()
+   at iTextSharp.text.pdf.PdfDocument.Close()
+   at iTextSharp.text.Document.Close()
+   at CustomerManagement.Helper.PdfDocument.GeneratePdfFile(CustomerProfile customerProfile, IList`1 customerRecord) in C:\Users\TELNET-SP\Desktop\Olayemi\My Projects\CustomerManagement\CustomerManagement\Helper\PdfDocument.cs:line 93
+-----------------------------------------------------------------------------
+Date : 9/26/2021 1:28:32 PM
+
+System.IO.IOException
+Message : No message found for the.document.has.no.pages
+StackTrace :    at iTextSharp.text.pdf.PdfPages.WritePageTree()
+   at iTextSharp.text.pdf.PdfWriter.Close()
+   at iTextSharp.text.pdf.PdfDocument.Close()
+   at iTextSharp.text.Document.Close()
+   at CustomerManagement.Helper.PdfDocument.GeneratePdfFile(CustomerProfile customerProfile, IList`1 customerRecord) in C:\Users\TELNET-SP\Desktop\Olayemi\My Projects\CustomerManagement\CustomerManagement\Helper\PdfDocument.cs:line 94
+-----------------------------------------------------------------------------
+Date : 9/26/2021 8:53:10 PM
+
+Microsoft.EntityFrameworkCore.DbUpdateException
+Message : An error occurred while updating the entries. See the inner exception for details.
+StackTrace :    at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at CustomerManagement.Repositories.CustomerRepository.CreateCustomerAsync(CustomerRequestModel model, String userId, String createdBy, String profilePicture) in C:\Users\TELNET-SP\Desktop\Olayemi\My Projects\CustomerManagement\CustomerManagement\Repositories\CustomerRepository.cs:line 58
+   at CustomerManagement.Controllers.AccountController.RegisterUser(CustomerRequestModel model) in C:\Users\TELNET-SP\Desktop\Olayemi\My Projects\CustomerManagement\CustomerManagement\Controllers\AccountController.cs:line 177
+Microsoft.Data.SqlClient.SqlException
+Message : The INSERT statement conflicted with the FOREIGN KEY constraint "FK_CustomerProfiles_AspNetUsers_CreatedBy". The conflict occurred in database "CMDatabase", table "dbo.AspNetUsers", column 'Id'.
+The statement has been terminated.
+StackTrace :    at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+-----------------------------------------------------------------------------
+Date : 9/26/2021 9:03:07 PM
+
+Microsoft.EntityFrameworkCore.DbUpdateException
+Message : An error occurred while updating the entries. See the inner exception for details.
+StackTrace :    at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at CustomerManagement.Repositories.CustomerRepository.CreateCustomerAsync(CustomerRequestModel model, String userId, String createdBy, String profilePicture) in C:\Users\TELNET-SP\Desktop\Olayemi\My Projects\CustomerManagement\CustomerManagement\Repositories\CustomerRepository.cs:line 58
+   at CustomerManagement.Controllers.AccountController.RegisterUser(CustomerRequestModel model) in C:\Users\TELNET-SP\Desktop\Olayemi\My Projects\CustomerManagement\CustomerManagement\Controllers\AccountController.cs:line 177
+Microsoft.Data.SqlClient.SqlException
+Message : The INSERT statement conflicted with the FOREIGN KEY constraint "FK_CustomerProfiles_AspNetUsers_CreatedBy". The conflict occurred in database "CMDatabase", table "dbo.AspNetUsers", column 'Id'.
+The statement has been terminated.
+StackTrace :    at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
